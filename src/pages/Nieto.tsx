@@ -146,10 +146,6 @@ function Nieto() {
           <div className="md:col-span-2 space-y-6">
             <p className="text-lg leading-relaxed text-slate-300">
               A travers une liaison avec certaines compagnies de travailleurs étrangers (CTE), notamment en région toulousaine et certains camps de concentration.
-            </p>
-            <p className="text-lg leading-relaxed text-slate-300">
-              Plusieurs sources soulignent que lors de la tenue d'une réunion des camps de PCE en juin même de camp d'Argelès en octobre 1940, et plus tard lors de la création des premiers réseaux de guérilleros.
-            </p>
             <p className="text-lg leading-relaxed text-slate-300">
               Dès octobre 1941, une filière clandestine se met en place pour aider les réfugiés. Il s'occupe un rôle très actif au sein de cette organisation clandestine.
             </p>
