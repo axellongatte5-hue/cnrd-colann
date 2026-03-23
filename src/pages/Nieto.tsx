@@ -4,7 +4,7 @@ import { MapPin, Calendar, Users } from 'lucide-react';
 function Nieto() {
   const timelineEvents = [
     { year: '1913', event: 'Naissance à Albacete, Espagne', detail: 'Membre du Partido Comunista de España (PCE)' },
-    { year: '1933', event: 'Arrivée en France', detail: 'Après la défaite, identifié par Franco' },
+    { year: '1933', event: 'Arrivée en France', detail: 'Après la victoire de Franco' },
     { year: '1941-42', event: 'Résistance', detail: `Engagement dans l'Union Nacional Española (UNE)` },
     { year: '1942', event: 'Arrestation', detail: 'Septembre à Toulouse, sous le faux nom de José Matéos Martinez' },
     { year: '1944', event: 'Déportation', detail: '31 juillet vers Buchenwald, matricule n°69237' },
