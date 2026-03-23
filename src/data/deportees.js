@@ -285,7 +285,7 @@ export const deportees = [
     name: "Angèle Rouzaud",
     dates: "Inconnue",
     photo: "",
-    summary: "Résistante française, déportée à Ravensbrück",
+    summary: "Déportée à Ravensbrück",
     description: "Angèle Rouzaud fait partie des nombreuses femmes françaises qui se sont engagées dans la Résistance pendant l'Occupation.",
     path: [
       {
