@@ -203,7 +203,7 @@ function Nieto() {
                 Déporté à Buchenwald le 31 juillet sous la matricule n°69237, Jaime Nieto devient rapidement l'une des figures importantes de la résistance clandestine au sein du camp.
               </p>
               <p className="text-slate-300 leading-relaxed">
-                D'après des témoins, il désigna le "Serment de Buchenwald" à la libération du camp devant 21 000 survivants le 19 avril 1945.
+                D'après des témoins, il récita le "Serment de Buchenwald" à la libération du camp devant 21 000 survivants le 19 avril 1945.
               </p>
             </div>
 
