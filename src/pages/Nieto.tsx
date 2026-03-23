@@ -145,7 +145,7 @@ function Nieto() {
         <div className="mt-12 grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2 space-y-6">
             <p className="text-lg leading-relaxed text-slate-300">
-              García Tortosa, à travers une liaison avec certaines compagnies de travailleurs étrangers (CTE), notamment en région toulousaine et certains camps de concentration.
+              A travers une liaison avec certaines compagnies de travailleurs étrangers (CTE), notamment en région toulousaine et certains camps de concentration.
             </p>
             <p className="text-lg leading-relaxed text-slate-300">
               Plusieurs sources soulignent que lors de la tenue d'une réunion des camps de PCE en juin même de camp d'Argelès en octobre 1940, et plus tard lors de la création des premiers réseaux de guérilleros.
