@@ -63,7 +63,7 @@ function Nieto() {
               </div>
               <blockquote className="border-l-2 border-amber-500 pl-4">
                 <p className="text-slate-300 italic">
-                  "Ce résistant partiellement remarquable semble tomber dans les oubliettes de l'Histoire..."
+                  "Ce résistant particulièrement remarquable semble tomber dans les oubliettes de l'Histoire..."
                 </p>
               </blockquote>
             </div>
