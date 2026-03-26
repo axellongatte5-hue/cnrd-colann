@@ -134,7 +134,7 @@ export default function CartePage() {
               </Link>
               <Link to="/personnages" className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-all">
                 <Users className="w-4 h-4" />
-                Personnages
+                Déporté
               </Link>
               <Link to="/camps" className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-all">
                 <MapPin className="w-4 h-4" />
