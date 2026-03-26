@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Users, AlertTriangle } from 'lucide-react';
+import { Users, AlertTriangle, Download } from 'lucide-react';
 
 function Feigelson() {
   const timelineEvents = [
@@ -270,6 +270,23 @@ function Feigelson() {
           <p className="text-lg leading-relaxed text-slate-300">
             Après la guerre, Raphaël Feigelson consacre sa vie à la mémoire, à la culture et à la lutte contre toutes les formes de discrimination. Il est également écrivain et membre de la Société des gens de lettres. Raphaël Feigelson s'éteint en 2021 à Paris, à l'âge de 95 ans. Son témoignage constitue une source essentielle pour comprendre la Résistance, la déportation et l'horreur des camps nazis.
           </p>
+        </div>
+      </section>
+
+      {/* TÉLÉCHARGEMENT TÉMOIGNAGE */}
+      <section className="py-16 px-6 bg-slate-800/50">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="font-serif text-2xl font-bold text-white mb-6">Télécharger son témoignage</h2>
+          <a 
+            href="https://customer-assets.emergentagent.com/job_cnrd-preview/artifacts/xkufrljw_Fiegelson_p14-19_%20conf%C3%A9rence%2013%20mai%201945.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="inline-flex items-center gap-3 px-6 py-4 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 rounded-xl text-amber-400 hover:text-amber-300 transition-all duration-300 group"
+          >
+            <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
+            <span className="text-lg font-medium">Télécharger le témoignage de Raphaël Feigelson</span>
+          </a>
         </div>
       </section>
 
