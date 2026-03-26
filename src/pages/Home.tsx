@@ -12,8 +12,8 @@ export default function HomePage() {
             Projet CNRD 2025
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Mémoire de la<br />
-            <span className="text-amber-400">Déportation</span>
+            Les rescapés des camps de la mort<br />
+            <span className="text-amber-400">vous parlent</span>
           </h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
             Un hommage aux résistants et déportés qui ont combattu pour notre liberté.
