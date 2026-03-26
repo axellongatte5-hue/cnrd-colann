@@ -15,6 +15,7 @@ import Lestage from "./pages/Lestage";
 import Rolland from "./pages/Rolland";
 import LesAbs from "./pages/les-abs";
 import AngeleRouzaud from "./pages/angele-rouzaud";
+import Nakache from "./pages/Nakache";
 
 // Pages des camps
 import Auschwitz from "./pages/Auschwitz";
@@ -46,6 +47,7 @@ function App() {
         <Route path="/personnage/rolland" element={<Rolland />} />
         <Route path="/personnage/angele-rouzaud" element={<AngeleRouzaud />} />
         <Route path="/personnage/les-abs" element={<LesAbs />} />
+        <Route path="/personnage/nakache" element={<Nakache />} />
         
         {/* Pages de camps */}
         <Route path="/camp/auschwitz" element={<Auschwitz />} />
