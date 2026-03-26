@@ -316,7 +316,7 @@ export const deportees = [
   {
     id: "les-abs",
     name: "Les abscents de la conférence",
-    dates: "1893-1945 & 1897-1986",
+    dates: "Jeanne Verdier et Jean Cassou",
     photo: "",
     summary: "Deux destins entrelacés dans la lutte contre l'oppression",
     description: "Jeanne Verdier et Jean Cassou, deux figures de la Résistance française dont les parcours témoignent de l'engagement contre l'occupation nazie.",
