@@ -9,7 +9,7 @@ export default function HomePage() {
       <section className="relative py-24 px-8 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-400 text-sm font-medium mb-8">
-            Projet CNRD 2025
+            Projet CNRD 2026
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             Les rescapés des camps de la mort<br />
