@@ -212,7 +212,7 @@ export default function CartePage() {
           {/* Persons list */}
           <div className="flex-1 overflow-y-auto p-4">
             <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">
-              Personnages ({deportees.length})
+              Déportés ({deportees.length})
             </h3>
             <div className="space-y-2">
               {deportees.map((person) => (
