@@ -315,7 +315,7 @@ export const deportees = [
   },
   {
     id: "les-abs",
-    name: "Jeanne & Jean",
+    name: "Jeanne Verdier & Jean Cassou",
     dates: "1893-1945 & 1897-1986",
     photo: "",
     summary: "Deux destins entrelacés dans la lutte contre l'oppression",
