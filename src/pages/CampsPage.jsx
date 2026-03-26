@@ -36,7 +36,7 @@ export default function CampsPage() {
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-red-400 mb-6 flex items-center gap-3">
               <div className="w-4 h-4 rounded-full bg-red-500" />
-              Camps d'extermination
+              Centre de mise à mort
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               {campsByType.extermination.map((camp) => (
