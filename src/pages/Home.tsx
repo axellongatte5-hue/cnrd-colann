@@ -37,7 +37,7 @@ export default function HomePage() {
               data-testid="view-characters-btn"
             >
               <Users className="w-5 h-5" />
-              Voir les personnages
+              Voir Les témoins
             </Link>
           </div>
         </div>
