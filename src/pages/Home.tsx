@@ -37,7 +37,7 @@ export default function HomePage() {
               data-testid="view-characters-btn"
             >
               <Users className="w-5 h-5" />
-              Voir Les témoins
+              Voir Les déportés
             </Link>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-between mb-12">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-2">Les témoins</h2>
+              <h2 className="text-3xl font-bold text-white mb-2">Les déportés</h2>
               <p className="text-slate-400">Découvrez les parcours individuels de résistants et déportés qqui ont témoignés le 13 mai 1945 à Toulouse.</p>
             </div>
             <Link
