@@ -1,5 +1,6 @@
 import "./index.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Layout from "./components/Layout";
 import HomePage from "./pages/Home";
 import PersonnagesPage from "./pages/PersonnagesPage";
@@ -26,9 +27,21 @@ import Ravensbruck from "./pages/Ravensbruck";
 import Neuengamme from "./pages/neuengamme";
 import Compiegne from "./pages/Campiegne";
 
+// Composant pour remettre le scroll à 0 lors du changement de page
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         {/* Pages avec Layout unifié */}
         <Route path="/" element={<Layout><HomePage /></Layout>} />
