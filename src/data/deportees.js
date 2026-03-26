@@ -1,3 +1,5 @@
+Voici le fichier deportees.js corrigé avec Nakache ajouté correctement :
+
 // src/data/deportees.js
 // Données des déportés et des camps
 
@@ -187,9 +189,9 @@ export const deportees = [
   {
     id: "lestage",
     name: "Suzanne Lestage",
-    dates: "1906-1995",
+    dates: "Inconnue",
     photo: "",
-    summary: "Résistante française, déportée à Ravensbrück puis Mauthausen, Nacht und Nebel",
+    summary: "Résistante française, déportée à Ravensbrück puis Mauthausen",
     description: "Résistante française déportée à Ravensbrück, le principal camp de concentration pour femmes, puis transférée à Mauthausen.",
     path: [
       {
@@ -232,7 +234,7 @@ export const deportees = [
     name: "Yves Rolland",
     dates: "1913 - ?",
     photo: "",
-    summary: "Marin-pêcheur breton, déporté à Neuengamme et Buchenwald, réfractaire STO",
+    summary: "Marin-pêcheur breton, déporté à Neuengamme et Buchenwald",
     description: "Résistant français déporté au camp de concentration de Neuengamme, près de Hambourg, puis transféré à Buchenwald.",
     path: [
       {
@@ -285,7 +287,7 @@ export const deportees = [
     name: "Angèle Rouzaud",
     dates: "Inconnue",
     photo: "",
-    summary: "Déportée à Ravensbrück",
+    summary: "Résistante française, déportée à Ravensbrück",
     description: "Angèle Rouzaud fait partie des nombreuses femmes françaises qui se sont engagées dans la Résistance pendant l'Occupation.",
     path: [
       {
@@ -315,8 +317,8 @@ export const deportees = [
   },
   {
     id: "les-abs",
-    name: "Les abscents de la conférence",
-    dates: "Jeanne Verdier et Jean Cassou",
+    name: "Jeanne & Jean",
+    dates: "1893-1945 & 1897-1986",
     photo: "",
     summary: "Deux destins entrelacés dans la lutte contre l'oppression",
     description: "Jeanne Verdier et Jean Cassou, deux figures de la Résistance française dont les parcours témoignent de l'engagement contre l'occupation nazie.",
@@ -345,6 +347,69 @@ export const deportees = [
     color: "#a855f7",
     campId: "ravensbruck",
     fate: "Jeanne libérée par la Croix-Rouge, Jean arrêté puis libéré"
+  },
+  {
+    id: "nakache",
+    name: "Alfred Nakache",
+    dates: "1915 - 1983",
+    photo: "",
+    summary: "Champion de natation français, déporté à Auschwitz, survivant des marches de la mort",
+    description: "Champion de France de natation, participant aux JO de Berlin 1936. Déporté avec sa famille à Auschwitz où sa femme et sa fille sont assassinées.",
+    path: [
+      {
+        id: "nakache-constantine",
+        label: "Naissance",
+        location: "Constantine, Algérie",
+        lat: 36.3650,
+        lng: 6.6147,
+        date: "18 novembre 1915",
+        type: "origin",
+        description: "Naissance à Constantine, Algérie française."
+      },
+      {
+        id: "nakache-toulouse",
+        label: "Arrestation",
+        location: "Toulouse",
+        lat: 43.6047,
+        lng: 1.4442,
+        date: "20 décembre 1943",
+        type: "transit",
+        description: "Dénoncé, arrêté par la Gestapo, interné à la prison Saint-Michel."
+      },
+      {
+        id: "nakache-drancy",
+        label: "Transit",
+        location: "Drancy",
+        lat: 48.9172,
+        lng: 2.4513,
+        date: "Janvier 1944",
+        type: "transit",
+        description: "Camp de Drancy, antichambre de la déportation."
+      },
+      {
+        id: "nakache-auschwitz",
+        label: "Déportation",
+        location: "Auschwitz-Birkenau",
+        lat: 50.0343,
+        lng: 19.1784,
+        date: "20 janvier 1944",
+        type: "camp",
+        description: "Convoi n°66. Sa femme Paule et sa fille Annie assassinées à l'arrivée."
+      },
+      {
+        id: "nakache-buchenwald",
+        label: "Transfert",
+        location: "Buchenwald",
+        lat: 51.0217,
+        lng: 11.2486,
+        date: "Janvier 1945",
+        type: "camp",
+        description: "Survit aux marches de la mort après l'évacuation d'Auschwitz."
+      }
+    ],
+    color: "#0ea5e9",
+    campId: "auschwitz",
+    fate: "Survivant, libéré en avril 1945, reprend la compétition aux JO 1948"
   }
 ];
 
@@ -434,21 +499,6 @@ export const camps = [
     color: "#14b8a6"
   }
 ];
-
-{
-  id: 'nakache',
-  name: 'Alfred Nakache',
-  dates: '1915–1983',
-  summary: 'Champion de natation français, déporté à Auschwitz, survivant des marches de la mort.',
-  fate: 'Survivant - Champion olympique',
-  color: '#3B82F6',
-  path: [
-    { name: 'Toulouse', coords: [43.6047, 1.4442] },
-    { name: 'Drancy', coords: [48.9167, 2.4500] },
-    { name: 'Auschwitz', coords: [50.0343, 19.1783] },
-    { name: 'Buchenwald', coords: [51.0217, 11.2483] },
-  ],
-},
 
 export const timelineEvents = [
   { year: 1939, event: "Début de la Seconde Guerre mondiale", detail: "1er septembre — L'Allemagne envahit la Pologne" },
