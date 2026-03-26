@@ -189,7 +189,7 @@ export const deportees = [
     name: "Suzanne Lestage",
     dates: "1906-1995",
     photo: "",
-    summary: "Résistante française, déportée à Ravensbrück puis Mauthausen",
+    summary: "Résistante française, déportée à Ravensbrück puis Mauthausen, Nacht und Nebel",
     description: "Résistante française déportée à Ravensbrück, le principal camp de concentration pour femmes, puis transférée à Mauthausen.",
     path: [
       {
