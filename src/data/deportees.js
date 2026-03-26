@@ -435,6 +435,21 @@ export const camps = [
   }
 ];
 
+{
+  id: 'nakache',
+  name: 'Alfred Nakache',
+  dates: '1915–1983',
+  summary: 'Champion de natation français, déporté à Auschwitz, survivant des marches de la mort.',
+  fate: 'Survivant - Champion olympique',
+  color: '#3B82F6',
+  path: [
+    { name: 'Toulouse', coords: [43.6047, 1.4442] },
+    { name: 'Drancy', coords: [48.9167, 2.4500] },
+    { name: 'Auschwitz', coords: [50.0343, 19.1783] },
+    { name: 'Buchenwald', coords: [51.0217, 11.2483] },
+  ],
+},
+
 export const timelineEvents = [
   { year: 1939, event: "Début de la Seconde Guerre mondiale", detail: "1er septembre — L'Allemagne envahit la Pologne" },
   { year: 1940, event: "Armistice et Régime de Vichy", detail: "Le gouvernement de Vichy collabore avec l'occupant nazi" },
