@@ -178,7 +178,7 @@ export default function CartePage() {
               >
                 <span className="flex items-center gap-2">
                   <Users className="w-4 h-4" />
-                  Personnages
+                  Déporté
                 </span>
                 {showPersons ? <Eye className="w-4 h-4" /> : <EyeOff className="w-4 h-4" />}
               </button>
