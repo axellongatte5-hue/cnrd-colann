@@ -63,7 +63,7 @@ function Nieto() {
               </div>
               <blockquote className="border-l-2 border-amber-500 pl-4">
                 <p className="text-slate-300 italic">
-                  "Ce résistant particulièrement remarquable semble tomber dans les oubliettes de l'Histoire..."
+                  "Ce résistant partiellement remarquable semble tomber dans les oubliettes de l'Histoire..."
                 </p>
               </blockquote>
             </div>
@@ -145,7 +145,11 @@ function Nieto() {
         <div className="mt-12 grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2 space-y-6">
             <p className="text-lg leading-relaxed text-slate-300">
-              A travers une liaison avec certaines compagnies de travailleurs étrangers (CTE), notamment en région toulousaine et certains camps de concentration.
+              García Tortosa, à travers une liaison avec certaines compagnies de travailleurs étrangers (CTE), notamment en région toulousaine et certains camps de concentration.
+            </p>
+            <p className="text-lg leading-relaxed text-slate-300">
+              Plusieurs sources soulignent que lors de la tenue d'une réunion des camps de PCE en juin même de camp d'Argelès en octobre 1940, et plus tard lors de la création des premiers réseaux de guérilleros.
+            </p>
             <p className="text-lg leading-relaxed text-slate-300">
               Dès octobre 1941, une filière clandestine se met en place pour aider les réfugiés. Il s'occupe un rôle très actif au sein de cette organisation clandestine.
             </p>
@@ -203,7 +207,7 @@ function Nieto() {
                 Déporté à Buchenwald le 31 juillet sous la matricule n°69237, Jaime Nieto devient rapidement l'une des figures importantes de la résistance clandestine au sein du camp.
               </p>
               <p className="text-slate-300 leading-relaxed">
-                D'après des témoins, il récita le "Serment de Buchenwald" à la libération du camp devant 21 000 survivants le 19 avril 1945.
+                D'après des témoins, il désigna le "Serment de Buchenwald" à la libération du camp devant 21 000 survivants le 19 avril 1945.
               </p>
             </div>
 
