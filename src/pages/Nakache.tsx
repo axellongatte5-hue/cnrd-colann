@@ -1,5 +1,3 @@
-Voici le fichier Nakache.tsx corrigé (les premières lignes) :
-
 import { Link } from 'react-router-dom';
 import { MapPin, Calendar, Users, AlertTriangle, Medal, Heart, Flame, Download } from 'lucide-react';
 
