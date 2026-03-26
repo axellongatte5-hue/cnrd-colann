@@ -65,7 +65,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between mb-12">
             <div>
               <h2 className="text-3xl font-bold text-white mb-2">Les Personnages</h2>
-              <p className="text-slate-400">Découvrez les parcours individuels de résistants et déportés</p>
+              <p className="text-slate-400">Découvrez les parcours individuels de résistants et déportés qqui ont témoignés le 13 mai 1945 à Toulouse</p>
             </div>
             <Link
               to="/personnages"
