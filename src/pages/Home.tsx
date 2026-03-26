@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Users, MapPin, Map } from 'lucide-react';
+import { ArrowRight, Users, MapPin, Map, Award, Download } from 'lucide-react';
 import { deportees, camps } from '../data/deportees';
 
 export default function HomePage() {
@@ -9,7 +9,7 @@ export default function HomePage() {
       <section className="relative py-24 px-8 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-400 text-sm font-medium mb-8">
-            Projet CNRD 2026
+            Projet CNRD 2025
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             Mémoire de la<br />
@@ -40,6 +40,22 @@ export default function HomePage() {
               Voir les personnages
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Section Téléchargement PDF */}
+      <section className="py-12 px-8 bg-slate-800/50">
+        <div className="max-w-4xl mx-auto text-center">
+          <a 
+            href="https://customer-assets.emergentagent.com/job_cnrd-preview/artifacts/abby1f7b_Conf%C3%A9rence_13%20mai%201945_livret_DEF.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="inline-flex items-center gap-3 px-6 py-4 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 rounded-xl text-amber-400 hover:text-amber-300 transition-all duration-300 group"
+          >
+            <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
+            <span className="text-lg font-medium">Télécharger le compte rendu de la conférence</span>
+          </a>
         </div>
       </section>
 
@@ -83,6 +99,7 @@ export default function HomePage() {
                   {person.summary}
                 </p>
                 <div className="flex items-center gap-2 text-xs text-slate-500">
+                  <Award className="w-3 h-3" />
                   <span>{person.fate}</span>
                 </div>
               </Link>
