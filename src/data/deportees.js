@@ -232,7 +232,7 @@ export const deportees = [
     name: "Yves Rolland",
     dates: "1913 - ?",
     photo: "",
-    summary: "Marin-pêcheur breton, déporté à Neuengamme et Buchenwald",
+    summary: "Marin-pêcheur breton, déporté à Neuengamme et Buchenwald, réfractaire STO",
     description: "Résistant français déporté au camp de concentration de Neuengamme, près de Hambourg, puis transféré à Buchenwald.",
     path: [
       {
