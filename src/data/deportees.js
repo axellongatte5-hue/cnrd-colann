@@ -1,5 +1,3 @@
-Voici le fichier deportees.js corrigé avec Nakache ajouté correctement :
-
 // src/data/deportees.js
 // Données des déportés et des camps
 
