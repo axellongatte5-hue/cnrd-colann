@@ -10,7 +10,7 @@ export default function Layout({ children }) {
 
   const navLinks = [
     { path: '/', label: 'Accueil', icon: Home },
-    { path: '/personnages', label: 'Personnages', icon: Users },
+    { path: '/personnages', label: 'Déportés', icon: Users },
     { path: '/camps', label: 'Camps', icon: MapPin },
     { path: '/carte', label: 'Carte', icon: Map },
   ];
