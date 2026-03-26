@@ -16,7 +16,7 @@ export default function PersonnagesPage() {
             Retour à l'accueil
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Les Personnages
+            Les déportés
           </h1>
           <p className="text-xl text-slate-400 max-w-3xl">
             Découvrez les parcours individuels de résistants et déportés qui ont marqué l'histoire.
