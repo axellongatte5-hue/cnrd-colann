@@ -307,7 +307,7 @@ export const deportees = [
   {
     id: "les-abs",
     name: "Jeanne Verdier",
-    dates: "1893-1945 & 1897-1986",
+    dates: "1893-1961",
     photo: "",
     summary: "Une lutte contre l'oppression",
     description: "Jeanne Verdier une figure de la Résistance française dont le parcour témoigne de l'engagement contre l'occupation nazie.",
