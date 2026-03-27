@@ -50,11 +50,6 @@ function LesAbs() {
                 <div className="w-24 h-24 bg-slate-700 rounded-full flex items-center justify-center border border-slate-600">
                 </div>
               </div>
-              <blockquote className="border-l-2 border-amber-500 pl-4">
-                <p className="text-slate-300 italic">
-                  "La Résistance n'était pas un acte isolé, mais un engagement collectif pour la liberté et la dignité humaine."
-                </p>
-              </blockquote>
             </div>
           </div>
         </div>
