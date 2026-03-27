@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Calendar, Heart, BookOpen } from 'lucide-react';
+import { MapPin, Calendar, BookOpen } from 'lucide-react';
 
 function LesAbs() {
   const timelineJeanne = [
