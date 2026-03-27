@@ -58,7 +58,6 @@ function Nieto() {
             <div className="bg-slate-800 p-8 border border-slate-700">
               <div className="flex justify-center mb-6">
                 <div className="w-24 h-24 bg-slate-700 rounded-full flex items-center justify-center border border-slate-600">
-                  <Users className="w-12 h-12 text-slate-500" />
                 </div>
               </div>
               <blockquote className="border-l-2 border-amber-500 pl-4">
@@ -157,8 +156,7 @@ function Nieto() {
 
           <div className="space-y-6">
             <div className="border border-slate-700 bg-slate-800 p-6">
-              <h3 className="font-serif text-lg font-bold text-white mb-4 flex items-center gap-2">
-                <Users className="w-5 h-5 text-amber-400" />
+              <h3 className="font-serif text-lg font-bold text-white mb-4 flex items-center gap-2"
                 Organisations
               </h3>
               <ul className="space-y-2">
