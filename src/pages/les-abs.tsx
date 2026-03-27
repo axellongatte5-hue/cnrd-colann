@@ -40,7 +40,7 @@ function LesAbs() {
                 </div>
                 <div className="flex items-center gap-2 text-sm text-slate-400">
                   <Calendar className="w-4 h-4 text-amber-400" />
-                  <span>1893-1945 & 1897-1986</span>
+                  <span>1893-1945</span>
                 </div>
               </div>
               <div className="mt-8 h-px w-24 bg-amber-500" />
