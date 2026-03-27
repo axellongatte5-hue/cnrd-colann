@@ -45,12 +45,6 @@ function LesAbs() {
               </div>
               <div className="mt-8 h-px w-24 bg-amber-500" />
             </div>
-            <div className="bg-slate-800 p-8 border border-slate-700">
-              <div className="flex justify-center mb-6">
-                <div className="w-24 h-24 bg-slate-700 rounded-full flex items-center justify-center border border-slate-600">
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
