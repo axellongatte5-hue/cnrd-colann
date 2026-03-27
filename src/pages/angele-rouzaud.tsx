@@ -234,8 +234,6 @@ export default function AngeleRouzaud() {
             </div>
 
             <div className="border border-slate-700 bg-slate-800 p-8 flex flex-col justify-center items-center text-center">
-              <div className="w-20 h-20 bg-rose-500/20 rounded-full flex items-center justify-center mb-6 border border-rose-500/50">
-                <Heart className="w-10 h-10 text-rose-400" />
               </div>
               <h3 className="font-serif font-bold text-white text-xl mb-4">Solidarité féminine</h3>
               <p className="text-slate-300">
