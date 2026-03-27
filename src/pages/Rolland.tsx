@@ -303,32 +303,6 @@ export default function Rolland() {
         </div>
       </section>
 
-      {/* Sources */}
-      <section id="sources" className="mx-auto max-w-4xl px-6 py-20">
-        <p className="text-sm font-medium uppercase tracking-[0.3em] text-amber-400">
-          Documentation
-        </p>
-        <h2 className="mt-3 font-serif text-3xl font-bold text-white md:text-4xl">
-          Sources et Archives
-        </h2>
-        <div className="mt-4 h-px w-16 bg-amber-500" />
-
-        <div className="mt-12 grid md:grid-cols-3 gap-6">
-          <div className="border border-slate-700 bg-slate-800 p-6">
-            <h3 className="font-bold text-white mb-3">Archives Arolsen</h3>
-            <p className="text-sm text-slate-400 mb-3">
-              Ausweis (laissez-passer) pour marin-pêcheur avec photo d'identité.
-            </p>
-            <a 
-              href="https://collections.arolsen-archives.org/de/search/person/74524548?s=Yves%20Rolland&t=222899&p=1" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-xs text-amber-400 hover:text-amber-300 underline"
-            >
-              Consulter les archives →
-            </a>
-          </div>
-
           <div className="border border-slate-700 bg-slate-800 p-6">
             <h3 className="font-bold text-white mb-3">Livre Mémorial</h3>
             <p className="text-sm text-slate-400 mb-3">
