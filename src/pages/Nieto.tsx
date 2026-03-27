@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Calendar, Users, Download } from 'lucide-react';
+import { MapPin, Calendar, Download } from 'lucide-react';
 
 function Nieto() {
   const timelineEvents = [
