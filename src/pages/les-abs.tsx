@@ -122,54 +122,6 @@ function LesAbs() {
         </div>
       </section>
 
-      {/* JEAN CASSOU */}
-      <section className="mx-auto max-w-4xl px-6 py-20">
-        <p className="text-sm font-medium uppercase tracking-[0.3em] text-amber-400">
-          Intellectuel engagé
-        </p>
-        <h2 className="mt-3 font-serif text-3xl font-bold text-white md:text-4xl">
-          Jean Cassou (1897-1986)
-        </h2>
-        <div className="mt-4 h-px w-16 bg-amber-500" />
-
-        <div className="mt-12 grid md:grid-cols-2 gap-8">
-          <div className="border border-slate-700 bg-slate-800 p-8">
-            <h3 className="font-serif text-xl font-bold text-white mb-6 flex items-center gap-2">
-              Carrière Artistique & Intellectuelle
-            </h3>
-            <ul className="space-y-3">
-              {cassouCarriere.map((item, i) => (
-                <li key={i} className="flex gap-2 text-slate-300 text-sm">
-                  <span className="text-amber-500">•</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="border border-slate-700 bg-slate-800 p-8">
-            <h3 className="font-serif text-xl font-bold text-white mb-6 flex items-center gap-2">
-              <BookOpen className="w-5 h-5 text-amber-400" />
-              Engagement dans la Résistance
-            </h3>
-            <div className="space-y-4">
-              {cassouResistance.map((item, i) => (
-                <div key={i} className="border-l-2 border-amber-500 pl-4">
-                  <p className="font-semibold text-white">{item.titre}</p>
-                  <p className="text-sm text-slate-400">{item.detail}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-12 border-l-2 border-amber-500 pl-6">
-          <p className="text-lg leading-relaxed text-slate-300">
-            Jean Cassou incarne l'intellectuel engagé qui, malgré sa position privilégiée, a choisi de rejoindre la lutte clandestine contre l'occupation. Son parcours montre comment le régime de Vichy a systématiquement frappé ceux qui refusaient de se soumettre, même les plus respectés des institutions culturelles françaises.
-          </p>
-        </div>
-      </section>
-
       {/* CONTEXTE HISTORIQUE */}
       <section className="bg-slate-800 py-20">
         <div className="mx-auto max-w-4xl px-6">
