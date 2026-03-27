@@ -12,19 +12,6 @@ function LesAbs() {
     { year: 'Après 1945', event: 'Engagement civique', detail: 'Élue Maire de Saint-Orens dans le Gers' },
   ];
 
-  const cassouCarriere = [
-    'Écrivain, conservateur de musée et critique d\'art',
-    'Traducteur de renommée',
-    'Directeur-fondateur du Musée national d\'Art moderne de Paris',
-    'Premier président de l\'Institut d\'études occitanes',
-  ];
-
-  const cassouResistance = [
-    { titre: 'Révocation (1940)', detail: 'Révoqué de son poste de conservateur du Musée d\'art moderne par Vichy' },
-    { titre: 'Entrée en Résistance', detail: 'Septembre 1940 - Rédige ses premiers tracts' },
-    { titre: 'Arrestation', detail: 'Décembre 1941 - Arrêté par la Gestapo' },
-  ];
-
   return (
     <div className="min-h-screen bg-slate-900">
       {/* HERO */}
@@ -35,7 +22,7 @@ function LesAbs() {
             className="inline-flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors mb-8"
           >
             <span>←</span>
-            <span className="text-sm">Retour aux personnages</span>
+            <span className="text-sm">Retour aux déportés</span>
           </Link>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
