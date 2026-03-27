@@ -288,16 +288,7 @@ export const deportees = [
     summary: "Résistante française, déportée à Ravensbrück",
     description: "Angèle Rouzaud fait partie des nombreuses femmes françaises qui se sont engagées dans la Résistance pendant l'Occupation.",
     path: [
-      {
-        id: "rouzaud-france",
-        label: "Arrestation",
-        location: "France",
-        lat: 46.2276,
-        lng: 2.2137,
-        date: "1944",
-        type: "origin",
-        description: "Arrêtée pour faits de résistance."
-      },
+      
       {
         id: "rouzaud-ravensbruck",
         label: "Déportation",
@@ -315,11 +306,11 @@ export const deportees = [
   },
   {
     id: "les-abs",
-    name: "Jeanne & Jean",
+    name: "Jeanne Verdier"
     dates: "1893-1945 & 1897-1986",
     photo: "",
-    summary: "Deux destins entrelacés dans la lutte contre l'oppression",
-    description: "Jeanne Verdier et Jean Cassou, deux figures de la Résistance française dont les parcours témoignent de l'engagement contre l'occupation nazie.",
+    summary: "Une lutte contre l'oppression",
+    description: "Jeanne Verdier une figure de la Résistance française dont le parcour témoigne de l'engagement contre l'occupation nazie.",
     path: [
       {
         id: "lesabs-france",
