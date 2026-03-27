@@ -31,7 +31,7 @@ function LesAbs() {
                 Résistants & Survivants
               </p>
               <h1 className="font-serif text-5xl font-bold leading-tight tracking-tight md:text-6xl text-white">
-                Jeanne & Jean Cassou
+                Jeanne Verdier
               </h1>
               <div className="mt-6 flex flex-col gap-3">
                 <div className="flex items-center gap-2 text-sm text-slate-400">
