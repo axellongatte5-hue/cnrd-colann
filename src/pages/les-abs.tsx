@@ -46,7 +46,6 @@ function LesAbs() {
               <h1 className="font-serif text-5xl font-bold leading-tight tracking-tight md:text-6xl text-white">
                 Jeanne & Jean Cassou
               </h1>
-              <p className="mt-4 text-lg text-slate-300">Deux destins entrelacés dans la lutte contre l'oppression</p>
               <div className="mt-6 flex flex-col gap-3">
                 <div className="flex items-center gap-2 text-sm text-slate-400">
                   <MapPin className="w-4 h-4 text-amber-400" />
