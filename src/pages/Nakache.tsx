@@ -203,7 +203,7 @@ export default function Nakache() {
               Malgré les lois antisémites de Vichy qui lui interdisent progressivement l'accès aux compétitions, il remporte encore cinq titres de champion de France en 1942, démontrant sa détermination face à l'adversité.
             </p>
             <p className="text-lg leading-relaxed text-slate-300">
-              Surnommé "le poisson d'Auschwitz", il continue même à nager clandestinement dans le camp, dans un bassin de rétention d'eau, défiant ainsi ses bourreaux et gardant son humanité.
+              Surnommé "le nageur d'Auschwitz", il continue même à nager clandestinement dans le camp, dans un bassin de rétention d'eau, défiant ainsi ses bourreaux et gardant son humanité.
             </p>
           </div>
 
