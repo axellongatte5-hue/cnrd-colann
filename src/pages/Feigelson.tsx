@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Users, AlertTriangle, Download } from 'lucide-react';
+import { AlertTriangle, Download } from 'lucide-react';
 
 function Feigelson() {
   const timelineEvents = [
@@ -69,7 +69,6 @@ function Feigelson() {
           
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-8 bg-slate-700 rounded-lg flex items-center justify-center border border-slate-600">
-              <Users className="w-16 h-16 text-slate-500" />
             </div>
             <p className="text-sm font-medium uppercase tracking-[0.3em] text-amber-400 mb-4">
               1926 — 2021
