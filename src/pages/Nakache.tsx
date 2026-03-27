@@ -270,7 +270,7 @@ export default function Nakache() {
           Survie
         </p>
         <h2 className="mt-3 font-serif text-3xl font-bold text-white md:text-4xl">
-          Le "Poisson d'Auschwitz"
+          Le "Nageur d'Auschwitz"
         </h2>
         <div className="mt-4 h-px w-16 bg-amber-500" />
 
