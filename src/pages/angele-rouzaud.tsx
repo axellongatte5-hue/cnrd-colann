@@ -63,7 +63,7 @@ export default function AngeleRouzaud() {
               </div>
               <blockquote className="border-l-2 border-amber-500 pl-4">
                 <p className="text-slate-300 italic">
-                  "Une femme courageuse parmi les milliers de résistantes déportées à Ravensbrück, le plus grand camp de concentration pour femmes du régime nazi."
+                  "Nous avons poussé des wagons de cailloux pieds nus, cela était très dur."
                 </p>
               </blockquote>
             </div>
@@ -84,20 +84,6 @@ export default function AngeleRouzaud() {
           </div>
         </div>
       </div>
-
-      {/* Chronologie */}
-      <section id="biographie" className="bg-slate-800 py-20">
-        <div className="mx-auto max-w-4xl px-6">
-          <p className="text-sm font-medium uppercase tracking-[0.3em] text-amber-400">
-            Parcours
-          </p>
-          <h2 className="mt-3 font-serif text-3xl font-bold text-white md:text-4xl">
-            Chronologie
-          </h2>
-          <div className="mt-4 h-px w-16 bg-amber-500" />
-
-          <div className="mt-12 relative">
-            <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-amber-500 via-red-500 to-green-500 md:left-1/2 md:-translate-x-px" />
 
             <div className="flex flex-col gap-12">
               {/* Engagement */}
