@@ -70,7 +70,7 @@ function Bouteille() {
               </div>
               <blockquote className="border-l-2 border-amber-500 pl-4">
                 <p className="text-slate-300 italic">
-                  "Un survivant psychiquement fragile, dont la parole est brouillée par un besoin de reconnaissance mal maîtrisé."
+                  "13 novembre 1943 : je quittais le capitole enchaîné, par la Gestapo. Aujourd'hui nous somes vivants."
                 </p>
               </blockquote>
             </div>
