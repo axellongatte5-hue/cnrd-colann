@@ -59,6 +59,8 @@ export default function AngeleRouzaud() {
             </div>
             <div className="bg-slate-800 p-8 border border-slate-700 rounded-lg">
               <div className="flex justify-center mb-6">
+                <div className="w-24 h-24 bg-slate-700 rounded-full flex items-center justify-center border border-slate-600">
+                  <Users className="w-12 h-12 text-slate-500" />
                 </div>
               </div>
               <blockquote className="border-l-2 border-amber-500 pl-4">
@@ -84,6 +86,20 @@ export default function AngeleRouzaud() {
           </div>
         </div>
       </div>
+
+      {/* Section Biographie / Chronologie */}
+      <section id="biographie" className="bg-slate-800 py-20">
+        <div className="mx-auto max-w-4xl px-6">
+          <p className="text-sm font-medium uppercase tracking-[0.3em] text-amber-400">
+            Parcours
+          </p>
+          <h2 className="mt-3 font-serif text-3xl font-bold text-white md:text-4xl">
+            Chronologie
+          </h2>
+          <div className="mt-4 h-px w-16 bg-amber-500" />
+
+          <div className="mt-12 relative">
+            <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-amber-500 via-red-500 to-green-500 md:left-1/2 md:-translate-x-px" />
 
             <div className="flex flex-col gap-12">
               {/* Engagement */}
@@ -218,6 +234,8 @@ export default function AngeleRouzaud() {
             </div>
 
             <div className="border border-slate-700 bg-slate-800 p-8 flex flex-col justify-center items-center text-center">
+              <div className="w-20 h-20 bg-amber-500/20 rounded-full flex items-center justify-center mb-6 border border-amber-500/50">
+                <Users className="w-10 h-10 text-amber-400" />
               </div>
               <h3 className="font-serif font-bold text-white text-xl mb-4">Solidarité féminine</h3>
               <p className="text-slate-300">
