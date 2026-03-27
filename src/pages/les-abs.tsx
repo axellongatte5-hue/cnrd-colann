@@ -156,7 +156,6 @@ function LesAbs() {
 
             <div className="border border-slate-700 bg-slate-900 p-6">
               <div className="flex items-center gap-3 mb-4">
-                <Heart className="w-6 h-6 text-amber-400" />
                 <h3 className="font-serif font-bold text-white">Libération 1945</h3>
               </div>
               <p className="text-sm text-slate-300">
