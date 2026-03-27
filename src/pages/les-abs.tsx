@@ -48,7 +48,6 @@ function LesAbs() {
             <div className="bg-slate-800 p-8 border border-slate-700">
               <div className="flex justify-center mb-6">
                 <div className="w-24 h-24 bg-slate-700 rounded-full flex items-center justify-center border border-slate-600">
-                  <Heart className="w-12 h-12 text-slate-500" />
                 </div>
               </div>
               <blockquote className="border-l-2 border-amber-500 pl-4">
