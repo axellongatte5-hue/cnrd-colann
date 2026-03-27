@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Calendar, AlertTriangle, Users, Heart, Flame, Download } from 'lucide-react';
+import { MapPin, Calendar, AlertTriangle, Users, Flame, Download } from 'lucide-react';
 
 export default function AngeleRouzaud() {
   return (
