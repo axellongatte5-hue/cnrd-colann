@@ -306,7 +306,7 @@ export const deportees = [
   },
   {
     id: "les-abs",
-    name: "Jeanne Verdier"
+    name: "Jeanne Verdier",
     dates: "1893-1945 & 1897-1986",
     photo: "",
     summary: "Une lutte contre l'oppression",
