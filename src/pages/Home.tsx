@@ -16,7 +16,7 @@ export default function HomePage() {
             <span className="text-amber-400">vous parlent</span>
           </h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-8">
-            Un hommage aux résistants et déportés qui ont combattu pour notre liberté.
+            Un hommage aux résistants et déportés qui ont combattu pour notre liberté lors de la conférence du 13 mai 1945 à Toulouse.
             Découvrez leurs parcours à travers l'Europe occupée.
           </p>
           <p className="text-lg text-amber-400 italic mb-12">
