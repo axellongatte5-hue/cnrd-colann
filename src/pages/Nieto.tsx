@@ -157,7 +157,7 @@ function Nieto() {
           <div className="space-y-6">
             <div className="border border-slate-700 bg-slate-800 p-6">
               <h3 className="font-serif text-lg font-bold text-white mb-4 flex items-center gap-2"
-                Organisations
+                 Organisations
               </h3>
               <ul className="space-y-2">
                 {organisations.map((org, i) => (
