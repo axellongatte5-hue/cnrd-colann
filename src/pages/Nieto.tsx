@@ -62,7 +62,7 @@ function Nieto() {
               </div>
               <blockquote className="border-l-2 border-amber-500 pl-4">
                 <p className="text-slate-300 italic">
-                  "Ce résistant particullièrement remarquable semble tomber dans les oubliettes de l'Histoire..."
+                  "Les plans d'Hitler n'ont pu réussir,c'est que dans tous les pays, il y a a eu des patriotes disposés à sacrifier leur vie pour empêcher cette longue série de crimes."
                 </p>
               </blockquote>
             </div>
