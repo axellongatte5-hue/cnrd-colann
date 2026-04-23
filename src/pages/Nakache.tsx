@@ -88,14 +88,14 @@ export default function Nakache() {
       </section>
 
       {/* SÉPARATION VISUELLE */}
-      <div className="relative">
-        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
-        <div className="bg-slate-900 py-8">
-          <div className="mx-auto flex justify-center">
-            <div className="flex items-center gap-4">
-              <div className="h-px w-12 bg-slate-700" />
-              <div className="h-2 w-2 rotate-45 border border-amber-500/50" />
-              <div className="h-px w-12 bg-slate-700" />
+      <div className=\relative\>
+        <div className=\absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent\ />
+        <div className=\bg-slate-900 py-8\>
+          <div className=\mx-auto flex justify-center\>
+            <div className=\flex items-center gap-4\>
+              <div className=\h-px w-12 bg-slate-700\ />
+              <div className=\h-2 w-2 rotate-45 border border-amber-500/50\ />
+              <div className=\h-px w-12 bg-slate-700\ />
             </div>
           </div>
         </div>
