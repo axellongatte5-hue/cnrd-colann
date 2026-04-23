@@ -101,6 +101,35 @@ export default function Nakache() {
         </div>
       </div>
 
+      {/* VIDÉO YOUTUBE */}
+      <section className=\mx-auto max-w-4xl px-6 py-16\ data-testid=\nakache-video-section\>
+        <div className=\text-center mb-8\>
+          <p className=\text-sm font-medium uppercase tracking-[0.3em] text-amber-400\>
+            Témoignage
+          </p>
+          <h2 className=\mt-3 font-serif text-3xl font-bold text-white md:text-4xl\>
+            Portrait en vidéo
+          </h2>
+          <div className=\mx-auto mt-4 h-px w-16 bg-amber-500\ />
+        </div>
+        <div
+          className=\relative w-full overflow-hidden border border-slate-700 bg-slate-800 shadow-2xl\
+          style={{ paddingBottom: '56.25%' }}
+          data-testid=\nakache-youtube-wrapper\
+        >
+          <iframe
+            className=\absolute inset-0 h-full w-full\
+            src=\https://www.youtube.com/embed/bfK24CVQaNw\
+            title=\Alfred Nakache - Vidéo\
+            frameBorder=\0\
+            allow=\accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\
+            referrerPolicy=\strict-origin-when-cross-origin\
+            allowFullScreen
+            data-testid=\nakache-youtube-iframe\
+          />
+        </div>
+      </section>
+
       {/* CHIFFRES CLÉS */}
       <section className="mx-auto max-w-4xl px-6 py-20">
         <div className="text-center">
