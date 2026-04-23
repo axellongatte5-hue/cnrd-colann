@@ -88,44 +88,44 @@ export default function Nakache() {
       </section>
 
       {/* SÉPARATION VISUELLE */}
-      <div className=\relative\>
-        <div className=\absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent\ />
-        <div className=\bg-slate-900 py-8\>
-          <div className=\mx-auto flex justify-center\>
-            <div className=\flex items-center gap-4\>
-              <div className=\h-px w-12 bg-slate-700\ />
-              <div className=\h-2 w-2 rotate-45 border border-amber-500/50\ />
-              <div className=\h-px w-12 bg-slate-700\ />
+      <div className="relative">
+        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+        <div className="bg-slate-900 py-8">
+          <div className="mx-auto flex justify-center">
+            <div className="flex items-center gap-4">
+              <div className="h-px w-12 bg-slate-700" />
+              <div className="h-2 w-2 rotate-45 border border-amber-500/50" />
+              <div className="h-px w-12 bg-slate-700" />
             </div>
           </div>
         </div>
       </div>
 
       {/* VIDÉO YOUTUBE */}
-      <section className=\mx-auto max-w-4xl px-6 py-16\ data-testid=\nakache-video-section\>
-        <div className=\text-center mb-8\>
-          <p className=\text-sm font-medium uppercase tracking-[0.3em] text-amber-400\>
+      <section className="mx-auto max-w-4xl px-6 py-16" data-testid="nakache-video-section">
+        <div className="text-center mb-8">
+          <p className="text-sm font-medium uppercase tracking-[0.3em] text-amber-400">
             Témoignage
           </p>
-          <h2 className=\mt-3 font-serif text-3xl font-bold text-white md:text-4xl\>
+          <h2 className="mt-3 font-serif text-3xl font-bold text-white md:text-4xl">
             Portrait en vidéo
           </h2>
-          <div className=\mx-auto mt-4 h-px w-16 bg-amber-500\ />
+          <div className="mx-auto mt-4 h-px w-16 bg-amber-500" />
         </div>
         <div
-          className=\relative w-full overflow-hidden border border-slate-700 bg-slate-800 shadow-2xl\
+          className="relative w-full overflow-hidden border border-slate-700 bg-slate-800 shadow-2xl"
           style={{ paddingBottom: '56.25%' }}
-          data-testid=\nakache-youtube-wrapper\
+          data-testid="nakache-youtube-wrapper"
         >
           <iframe
-            className=\absolute inset-0 h-full w-full\
-            src=\https://www.youtube.com/embed/bfK24CVQaNw\
-            title=\Alfred Nakache - Vidéo\
-            frameBorder=\0\
-            allow=\accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\
-            referrerPolicy=\strict-origin-when-cross-origin\
+            className="absolute inset-0 h-full w-full"
+            src="https://www.youtube.com/embed/bfK24CVQaNw"
+            title="Alfred Nakache - Vidéo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
-            data-testid=\nakache-youtube-iframe\
+            data-testid="nakache-youtube-iframe"
           />
         </div>
       </section>
